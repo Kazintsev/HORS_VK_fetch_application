@@ -1,0 +1,20 @@
+{
+  "timeZone": "Europe/Moscow",
+  "dependencies": {
+  },
+  "webapp": {
+    "access": "ANYONE",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "sheets": {
+    "macros": [{
+      "menuName": "Новый макрос",
+      "functionName": "myFunction1"
+    }, {
+      "menuName": "process",
+      "functionName": "process"
+    }]
+  }
+}
